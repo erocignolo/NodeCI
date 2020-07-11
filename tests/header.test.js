@@ -33,7 +33,7 @@ test('Clicando no login e iniciando o fluxo oauth', async () => {
     expect(url).toMatch(/accounts\.google\.com/)
 })
 
-test('Logando e mostrando botao de loggout', async () => {
+test.only('Logando e mostrando botao de loggout', async () => {
     // _id do mongo
     const id = '5f05009a1e3fe3136096b468'
     const Buffer = require('safe-buffer').Buffer
